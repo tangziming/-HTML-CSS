@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task10</title>
+	<style type="text/css" media="screen">
+		.box {
+			display: flex;
+			align-items: center;
+			border: 1px solid black;
+			flex-wrap: wrap;
+			padding: 20px;
+			justify-content:space-between;
+		}
+		.item {
+			width: 150px;
+			border: 1px solid red;
+			
+		}
+		.item1 {
+			height: 120px;
+		}
+		.item2 {
+			height: 100px;
+		}
+		.item3 {
+			height: 40px;
+		}
+		.item4 {
+			height: 200px;
+			border: 1px solid blue;
+		}
+		 @media all and (max-width: 640px) {
+           
+             .item4{
+                order: -1;
+
+            }
+            .item3 {
+            	margin-top: 20px;
+            }
+        }
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="item item1">
+			
+		</div>
+		<div class="item item2">
+			
+		</div>
+		<div class="item item3">
+			
+		</div>
+		<div class="item item4">
+			
+		</div>
+	</div>
+</body>
+</html>

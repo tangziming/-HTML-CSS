@@ -1,0 +1,38 @@
+#left{
+	position: absolute;
+	left: 20px;
+	width: 200px;
+}
+#right{
+	position: absolute;
+	width: 120px;
+	right: 20px;
+	top: 20px;
+}
+#middle{
+	margin-left: 220px;
+	margin-right: 140px;
+	line-height: 1.5em;
+	padding: 20px;
+
+
+}
+img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	margin: 20px;
+}
+#content > div {
+	border: 1px solid #999;
+	
+	background-color: #fff;
+	
+}
+#content{
+	background-color: #eee;
+	border: 1px solid #999;
+	padding: 20px;
+	overflow: auto;
+
+}
